@@ -7,7 +7,7 @@ type Props = {};
 
 export default function Header({}: Props) {
   return (
-    <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20">
+    <header className=" sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20">
       <motion.div
         initial={{
           opacity: 0,
@@ -30,12 +30,12 @@ export default function Header({}: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.linkedin.com/in/sadmanjawad/"
+          url="https://www.facebook.com/in/sadmanjawad/"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.linkedin.com/in/sadmanjawad/"
+          url="https://www.instagram.com/in/sadmanjawad/"
           fgColor="gray"
           bgColor="transparent"
         />
