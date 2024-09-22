@@ -10,7 +10,7 @@ type Props = {};
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hello, The Name's Sadman Jawad Chowdhury",
+      "Hello, it's me Sadman Jawad Chowdhury",
       "Guy-who-loves-Tea.tsx",
       "<ButLovesToCodeMore />",
     ],
@@ -19,7 +19,7 @@ export default function Hero({}: Props) {
   });
 
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden mt-40">
+    <div className="h-screen flex flex-col space-y-4 md:-space-y-14 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
@@ -27,11 +27,11 @@ export default function Hero({}: Props) {
         alt="Sadman Jawad Chowdhury's Picture"
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+        <h2 className="text-xs md:text-sm uppercase text-gray-500 pt-2 md:pt-20 tracking-[15px]">
           A Full-Stack Developer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
-          <span className="mr-3">{text}</span>
+        <h1 className="text-xs lg:text-6xl font-semibold px-10">
+          <span className="mr-3 pt:4 md:pt-0">{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
         <div className="pt-5">

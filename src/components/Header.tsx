@@ -35,7 +35,7 @@ export default function Header({}: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.instagram.com/in/sadmanjawad/"
+          url="https://www.instagram.com/petitbiskuit/"
           fgColor="gray"
           bgColor="transparent"
         />
